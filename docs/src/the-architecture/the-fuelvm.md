@@ -112,7 +112,7 @@ This enables Fuel to natively support advanced features such as multi-calls, con
 
 ### Contracts
 
-Fuel provides support for smart contracts in its UTXO model. Smart contracts are stateful and can be called by other contracts. In Fuel, smart contracts are represented by the `InputContract` type. To learn more, refer to the section on InputContract.
+Fuel provides support for smart contracts in its UTXO model. Smart contracts are stateful and can be called by other contracts. In Fuel, smart contracts are represented by the `InputContract` type. To learn more, refer to the section on [InputContract](https://docs.fuel.network/docs/specs/tx-format/input/#inputcontract).
 
 The first call to a contract in a transaction occurs through a script, after which the contract can call other contracts.
 
